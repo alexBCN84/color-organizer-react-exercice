@@ -1,5 +1,18 @@
-React Project Template
-======================
+Color Organizer React Exercice
+==============================
+
+#### Purpose of this repo
+
+This is a practice exercice intended to work on React Refs and Inverse Data Flow. This exercice follows guidelones from 'Learning React' chapter 6 by Alex Banks & Eve Porcello
+
+#### What's in the components folder?
+
+#### Add Color Form
+A very simple ES6 class non-interactive form component with a handler function on submit, merely to prevent the form from sending a GET request.
+This component sets up the foundations that are built upon in the components below mentioned.
+
+#### Add Color Form With Submit Method
+Component under development
 
 #### Clone this repository on your local environment
 
