@@ -1,5 +1,5 @@
 {
-    "name": "react-project-template",
+    "name": "color-organizer-react-exercice",
     "version": "1.0.0",
     "description": "This is a basic template allowing you start a new React project with the basic dependencies",
     "main": "./src/index.js",
