@@ -5,14 +5,14 @@
     "main": "./src/index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/alexBCN84/react-project-template.git"
+        "url": "git+https://github.com/alexBCN84/color-organizer-react-exercice.git"
     },
     "author": "Alejandro Gines <alejandro.ginesmartinez@gmail.com> (http://www.alexgines.com)",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/alexBCN84/react-project-template/issues"
+        "url": "https://github.com/alexBCN84/color-organizer-react-exercice/issues"
     },
-    "homepage": "https://github.com/alexBCN84/react-project-template#readme",
+    "homepage": "https://github.com/alexBCN84/color-organizer-react-exercice#readme",
     "dependencies": {
         "npm": "^5.8.0",
         "react": "16.0.0",
