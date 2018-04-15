@@ -1,3 +1,25 @@
-// insert component here
+import {Component} from 'react'
 
-// continue working from page 120
+class AddColorForm extends Component {
+    constructor(props) {
+        super(props)
+        this.submit = this.submit.bind(this)
+    }
+    submit(e) {
+        const {_color, _title} = this.refs
+        e.preventDefault();
+        alert(`New Color: ${_title.value} ${_color.value}`)
+        _title.value = '';
+        _color.value = '#000000';
+        _title.focus();
+    }
+    render() {
+        return (
+            <form onSubmit={this.submit}>
+                <input ref="_title" type="text" placeholder="color title..." required/>
+                <input ref="_color" type="text" required />
+                <button>ADD</button>
+            </form>
+        )
+    }
+}
