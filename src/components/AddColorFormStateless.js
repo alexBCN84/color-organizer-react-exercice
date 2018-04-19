@@ -1,6 +1,7 @@
 // let's refactor AddColorForm as a stateless functional component
 
 import React from 'react'
+import PropTypes from 'prop-types'
 
 const AddColorForm = ({onNewColor=f=>f}) => {
     let _title, _color
@@ -19,6 +20,11 @@ const AddColorForm = ({onNewColor=f=>f}) => {
             <button>ADD</button>
         </form>
     )
+}
+
+// defining function property in the component's propTypes
+AddColorForm.propTypes = {
+    onNewColor: PropTypes.func
 }
 
 export default AddColorForm
